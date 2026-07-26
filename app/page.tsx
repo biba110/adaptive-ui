@@ -66,7 +66,7 @@ export default function Home() {
     setLoading(true);
     try {
       // YAHAN URL UPDATE HO GAYA HAI
-      const response = await fetch("https://ecom-clustering-project-1.onrender.com", {
+      const response = await fetch("https://ecom-clustering-project-1.onrender/predict-segment.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
