@@ -66,7 +66,7 @@ export default function Home() {
     setLoading(true);
     try {
       // YAHAN URL UPDATE HO GAYA HAI
-      const response = await fetch("https://ecom-backend-4hzs.onrender.com", {
+      const response = await fetch("https://ecom-backend-4hzs.onrender.com/predict-segment", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
